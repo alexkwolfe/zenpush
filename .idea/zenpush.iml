@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="gem" name="Gem">
+      <configuration>
+        <option name="GEM_APP_ROOT_PATH" value="$MODULE_DIR$" />
+        <option name="GEM_APP_TEST_PATH" value="" />
+        <option name="GEM_APP_LIB_PATH" value="$MODULE_DIR$/lib" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="awesome_print (v1.0.2, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="boson (v1.2.4, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.4, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="gene_pool (v1.3.0, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="httparty (v0.9.0, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json_pure (v1.5.5, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.6.1, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.5.3, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.5.9, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="persistent_http (v1.0.5, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="persistent_httparty (v0.1.1, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="posix-spawn (v0.3.6, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pygments.rb (v0.4.2, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v10.0.4, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="redcarpet (v2.1.1, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spruz (v0.2.13, rbenv: 1.9.3-p327) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="yajl-ruby (v1.1.0, rbenv: 1.9.3-p327) [gem]" level="application" />
+  </component>
+</module>
+
