@@ -139,7 +139,7 @@ module ZenPush
     def create_topic(category_name, forum_name, topic_title, topic_body, options = {})
       forum = ZenPush.z.find_or_create_forum(category_name, forum_name)
       if forum
-        topic_body = upload_images(topic_body)
+        topic_body = upload_images([category_name, forum_name].join('/'), topic_body)
         post_topic(forum['id'], topic_title, topic_body, options)
       else
         raise "Could not find a forum named '#{forum_name}' in the category '#{category_name}'"
@@ -147,14 +147,14 @@ module ZenPush
     end
 
     # Update topic by name, knowing the forum name and category name. Automatically uploads images.
-    def update_topic(topic, topic_body, options = {})
+    def update_topic(topic, path, topic_body, options = {})
       delete_images(topic['body'])
-      topic_body = upload_images(topic_body)
+      topic_body = upload_images(path, topic_body)
       put_topic(topic['id'], topic_body, options)
     end
 
     # Upload all the attachments linked in the topic body
-    def upload_images(topic_body)
+    def upload_images(path, topic_body)
       doc   = Nokogiri::HTML.fragment(topic_body)
 
       # Collect all relative links
