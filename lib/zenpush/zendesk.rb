@@ -243,7 +243,7 @@ module ZenPush
       contents = File.binread(file)
       self.post("/uploads.json?filename=#{File.basename(file)}#{"&token=#{token}" if token}",
                 :body    => contents,
-                :headers => { 'Content-Type' => 'application/binary' }
+                :headers => { 'Content-Type' => 'application/binary', 'Accept' => 'application/json' }
       ).parsed_response['upload']
     end
 
